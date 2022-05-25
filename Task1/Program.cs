@@ -9,13 +9,6 @@ int M = Convert.ToInt16(Console.ReadLine());
 Console.Write("Введи N: ");
 int N = Convert.ToInt16(Console.ReadLine());
 
-// if (M > N)
-//     for (int i = M; i >= N; i--)
-//         Console.Write($" {i}");
-// else
-//     for (int i = M; i <= N; i++)
-//         Console.Write($" {i}");
-
 void SomeRec(int n, int m)
 {
     if (n < m)
